@@ -1,0 +1,20 @@
+import requests
+
+b = input("Please insert a message for you weebhook > ")
+a = input("And enter your nickname > ")
+
+
+def sendmessage(username , messages):
+    request = {
+        "username": username,
+        "avatar_url": "URL of your weebhook images",
+        "content":  messages,
+    }
+    requests.post("COPY AND PASTE THE URL OF YOUR WEEBKOOK", request)
+sendmessage(a, b)
+
+
+
+
+
+#dev by elitatax and the "nerv"
